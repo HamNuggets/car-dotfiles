@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wall -O2 -s -DNDEBUG -shared -Wl,-soname,libdiscord-rpc.so -o libdiscord-rpc.so "CMakeFiles/discord-rpc.dir/discord_rpc.cpp.o" "CMakeFiles/discord-rpc.dir/rpc_connection.cpp.o" "CMakeFiles/discord-rpc.dir/serialization.cpp.o" "CMakeFiles/discord-rpc.dir/connection_unix.cpp.o" "CMakeFiles/discord-rpc.dir/discord_register_linux.cpp.o"  -lpthread 

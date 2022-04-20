@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wall -O2 -s -DNDEBUG CMakeFiles/mpd_discord_richpresence.dir/src/main.cpp.o CMakeFiles/mpd_discord_richpresence.dir/src/MpdClient.cpp.o -o mpd_discord_richpresence  -Wl,-rpath,/home/basil/Documents/mpd-rich-presence-discord/release/lib/discord-rpc/src lib/discord-rpc/src/libdiscord-rpc.so -lpthread -lmpdclient 
